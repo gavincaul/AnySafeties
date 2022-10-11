@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      crossorigin="anonymous"
+    />
+    <title>Any Safeties?</title>
+</head>
+<body>
+<nav>
+    <button>
+        <a class="nav-item nav-link" id="home" href="/">Home</a>
+        <a class="nav-item nav-link" id="about" href="/about">About</a>
+    </button>
+</nav>
+<div style = "position:absolute; left:270px; top:40px;text-align:center;font-family:Tahoma;font-size:50px;">
+    Have there been any Safeties this week?
+</div>
+<div style = "position:fixed; left:200px; top:130px;">
+    <img src = "https://c.tenor.com/Ihbu3iBTjGcAAAAM/better-call-saul-loop.gif">
+</div>
+<div style = "position:fixed; right:200px; top:130px;">
+    <img src = "https://c.tenor.com/Ihbu3iBTjGcAAAAM/better-call-saul-loop.gif">
+</div>
+<div style = "position:fixed; left:200px; top:320px;">
+    <img src = "https://c.tenor.com/Ikt7sU8aaJMAAAAM/thrust-dance.gif">
+</div>
+<div style = "position:fixed; right:200px; top:320px;">
+    <img src = "https://c.tenor.com/Ikt7sU8aaJMAAAAM/thrust-dance.gif">
+</div>
+<div style = "position:fixed; left:683px; top:400px; width:100px; font-family:Tahoma;font-size:30px" name = "output">Yes!</div><br>
+<div align = "center" style = "position:fixed; left:487px; top:500px; width:450px; font-family:Tahoma;font-size:20px" name = "output">{{ answer }}</div>
+
+<script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      type="text/javascript"
+      src="{{ url_for('static', filename='index.js') }}"
+    ></script>
+</body>
+</html>
