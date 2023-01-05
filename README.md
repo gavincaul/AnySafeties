@@ -1,4 +1,4 @@
-# AnySafeties
+# AnySafeties -- OUTDATED, UNFINISHED, NEEDS IMPROVEMENT
 A website I am building that is used to track safeties in the NFL. More details in the about HTML file.
 
 Built in PyCharm, thus using python.
