@@ -1,6 +1,6 @@
 import React from "react";
-import Landing from "anysafeties\src\pages\Landing.tsx";
-import AboutUs from "anysafeties\src\pages\About.tsx";
+import Landing from "./pages/Landing.tsx";
+import AboutUs from "./pages/About.tsx";
 import { Routes, Route } from "react-router-dom";
 
 export default function App() {
